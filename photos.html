@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nos photos - ADS en Pixels</title>
+    <link href="accueil.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sigmar&family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar&family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'><link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <head>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="accueil.html"> <img src="images/logo.png" alt=""><span class="texte-logo">ADS
+                        en Pixels</span> </a></div>
+            <input type="radio" name="slider" id="menu-btn">
+            <input type="radio" name="slider" id="close-btn">
+            <ul class="nav-links">
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <li><a href="accueil.html">Accueil</a></li>
+                <li><a href="quisommesnous.html">À propos</a></li>
+                <li>
+                    <a href="photos.html" class="desktop-item">Nos photos</a>
+                    <input type="checkbox" id="showDrop">
+                    <label for="showDrop" class="mobile-item">Nos photos</label>
+                    <ul class="drop-menu">
+                      <li><a href="photos.html#Argentine">Argentine</a></li>
+                      <li><a href="photos.html#Bolivie">Bolivie</a></li>
+                      <li><a href="photos.html#Chili">Chili</a></li>
+                      <li><a href="photos.html#Colombie">Colombie</a></li>
+                      <li><a href="photos.html#Équateur">Équateur</a></li>
+                      <li><a href="photos.html#Pérou">Pérou</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="guide.html" class="desktop-item">Guide par pays</a>
+                    <input type="checkbox" id="showMega">
+                    <label for="showMega" class="mobile-item">Guide par pays</label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="images/menu.jpg" alt="">
+                            </div>
+                            <div class="row">
+                              <header><a href="argentine.html">Argentine</a></header>
+                              <ul class="mega-links">
+                                  <li><a href="#">Carte d'identité</a></li>
+                                  <li><a href="#">Lieux à voir</a></li>
+                                  <li><a href="#">Itinéraire type</a></li>
+                                  <li><a href="#">Administratif</a></li>
+                              </ul>
+                          </div>
+                          <div class="row">
+                              <header><a href="bolivie.html">Bolivie</a></header>
+                              <ul class="mega-links">
+                                  <li><a href="#">Carte d'identité</a></li>
+                                  <li><a href="#">Lieux à voir</a></li>
+                                  <li><a href="#">Itinéraire type</a></li>
+                                  <li><a href="#">Administratif</a></li>
+                              </ul>
+                          </div>
+                          <div class="row">
+                              <header><a href="chili.html">Chili</a></header>
+                              <ul class="mega-links">
+                                  <li><a href="#">Carte d'identité</a></li>
+                                  <li><a href="#">Lieux à voir</a></li>
+                                  <li><a href="#">Itinéraire type</a></li>
+                                  <li><a href="#">Administratif</a></li>
+                              </ul>
+                          </div>
+                          <div class="row">
+                              <header><a href="colombie.html">Colombie</a></header>
+                              <ul class="mega-links">
+                                  <li><a href="#">Carte d'identité</a></li>
+                                  <li><a href="#">Lieux à voir</a></li>
+                                  <li><a href="#">Itinéraire type</a></li>
+                                  <li><a href="#">Administratif</a></li>
+                              </ul>
+                          </div>
+                          <div class="row">
+                              <header><a href="equateur.html">Équateur</a></header>
+                              <ul class="mega-links">
+                                  <li><a href="#">Carte d'identité</a></li>
+                                  <li><a href="#">Lieux à voir</a></li>
+                                  <li><a href="#">Itinéraire type</a></li>
+                                  <li><a href="#">Administratif</a></li>
+                              </ul>
+                          </div>
+                          <div class="row">
+                              <header><a href="perou.html">Pérou</a></header>
+                              <ul class="mega-links">
+                                  <li><a href="#">Carte d'identité</a></li>
+                                  <li><a href="#">Lieux à voir</a></li>
+                                  <li><a href="#">Itinéraire type</a></li>
+                                  <li><a href="#">Administratif</a></li>
+                              </ul>
+                          </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Retours d'expérience</a></li>
+            </ul>
+            <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+        </div>
+    </nav>
+</head>
+    
+    <main> 
+      <section class="titre-blanc">
+        <h1>La galerie photo</h1>
+        <p>Bienvenue à bord de notre voyage visuel à travers les pays que nous avons eu la chance de visiter !
+          Dans cette collection, nous vous offrons un aperçu captivant de nos aventures, capturant les paysages les plus époustouflants et les moments les plus mémorables de chaque destination. 
+          Ces images sont bien plus qu'une simple compilation de photos ; elles reflètent la richesse culturelle de chaque lieu, capturant l'essence même de nos expériences. 
+          Préparez-vous à être transporté(e) dans un tourbillon de couleurs, de textures et de paysages à couper le souffle. Ne résistez pas à l'appel de l'aventure qui résonne à travers ces images - laissez-vous inspirer à partir à la découverte de nouveaux horizons. Il n'y a pas de meilleur moment que maintenant pour entreprendre votre propre voyage et créer des souvenirs inoubliables. Alors, qu'attendez-vous ? Laissez-vous emporter par ces images magnifiques et laissez votre curiosité vous guider vers de nouvelles destinations. 
+          Bon voyage !</p>
+      </section>
+
+      <section class="navigation-photos">
+        <div class="container-navigation-photos">
+            <div class="box">
+                <a href="#Argentine"><img src="https://source.unsplash.com/1000x800" alt="Argentine"></a>
+                <span>Argentine</span>
+            </div>
+            <div class="box">
+                <a href="#Bolivie"><img src="https://source.unsplash.com/1000x802" alt="Bolivie"></a>
+                <span>Bolivie</span>
+            </div>
+            <div class="box">
+                <a href="#Chili"><img src="https://source.unsplash.com/1000x804" alt="Chili"></a>
+                <span>Chili</span>
+            </div>
+            <div class="box">
+                <a href="#Colombie"><img src="https://source.unsplash.com/1000x806" alt="Colombie"></a>
+                <span>Colombie</span>
+            </div>
+            <div class="box">
+                <a href="#Équateur"><img src="https://source.unsplash.com/1000x807" alt="Équateur"></a>
+                <span>Équateur</span>
+            </div>
+            <div class="box">
+                <a href="#Pérou"><img src="https://source.unsplash.com/1000x808" alt="Pérou"></a>
+                <span>Pérou</span>
+            </div>
+        </div>
+    </section>
+    
+      <section id="Argentine" class="titre-blanc">
+        <h1>Argentine</h1>
+        <p>Bienvenue à bord de notre voyage visuel à travers les pays que nous avons eu la chance de visiter !
+          Dans cette collection, nous vous offrons un aperçu captivant de nos aventures, capturant les paysages les plus époustouflants et les moments les plus mémorables de chaque destination. 
+          Ces images sont bien plus qu'une simple compilation de photos ; elles reflètent la richesse culturelle de chaque lieu, capturant l'essence même de nos expériences. 
+          Préparez-vous à être transporté(e) dans un tourbillon de couleurs, de textures et de paysages à couper le souffle. Ne résistez pas à l'appel de l'aventure qui résonne à travers ces images - laissez-vous inspirer à partir à la découverte de nouveaux horizons. Il n'y a pas de meilleur moment que maintenant pour entreprendre votre propre voyage et créer des souvenirs inoubliables. Alors, qu'attendez-vous ? Laissez-vous emporter par ces images magnifiques et laissez votre curiosité vous guider vers de nouvelles destinations. 
+          Bon voyage !</p>
+      </section>
+      <section class="section-galerie">
+        <ul class="galerie">
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA0OTI3Nw&ixlib=rb-1.2.1&q=80&w=400' alt='Volcano and lava field against a stormy sky'>
+                <figcaption>Mountains and volcanos</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633621533308-8760aefb5521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjAyMQ&ixlib=rb-1.2.1&q=80&w=400' alt='Guy on a bike ok a wooden bridge with a forest backdrop'>
+                <figcaption>Adventure getaways</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633635146842-12d386e64058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person standing alone in a misty forest'>
+                <figcaption>Forest escapes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person hiking on a trail through mountains while taking a photo with phone'>
+                <figcaption>Hiking trails</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633515257379-5fda985bd57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Street scene with person walking and others on motorbikes, all wearing masks'>
+                <figcaption>Street scenes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section id="Bolivie" class="titre-blanc">
+        <h1>Bolivie</h1>
+        <p>Bienvenue à bord de notre voyage visuel à travers les pays que nous avons eu la chance de visiter !
+          Dans cette collection, nous vous offrons un aperçu captivant de nos aventures, capturant les paysages les plus époustouflants et les moments les plus mémorables de chaque destination. 
+          Ces images sont bien plus qu'une simple compilation de photos ; elles reflètent la richesse culturelle de chaque lieu, capturant l'essence même de nos expériences. 
+          Préparez-vous à être transporté(e) dans un tourbillon de couleurs, de textures et de paysages à couper le souffle. Ne résistez pas à l'appel de l'aventure qui résonne à travers ces images - laissez-vous inspirer à partir à la découverte de nouveaux horizons. Il n'y a pas de meilleur moment que maintenant pour entreprendre votre propre voyage et créer des souvenirs inoubliables. Alors, qu'attendez-vous ? Laissez-vous emporter par ces images magnifiques et laissez votre curiosité vous guider vers de nouvelles destinations. 
+          Bon voyage !</p>
+      </section>
+      <section class="section-galerie">
+        <ul class="galerie">
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA0OTI3Nw&ixlib=rb-1.2.1&q=80&w=400' alt='Volcano and lava field against a stormy sky'>
+                <figcaption>Mountains and volcanos</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633621533308-8760aefb5521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjAyMQ&ixlib=rb-1.2.1&q=80&w=400' alt='Guy on a bike ok a wooden bridge with a forest backdrop'>
+                <figcaption>Adventure getaways</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633635146842-12d386e64058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person standing alone in a misty forest'>
+                <figcaption>Forest escapes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person hiking on a trail through mountains while taking a photo with phone'>
+                <figcaption>Hiking trails</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633515257379-5fda985bd57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Street scene with person walking and others on motorbikes, all wearing masks'>
+                <figcaption>Street scenes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section id="Chili" class="titre-blanc">
+        <h1>Chili</h1>
+        <p>Bienvenue à bord de notre voyage visuel à travers les pays que nous avons eu la chance de visiter !
+          Dans cette collection, nous vous offrons un aperçu captivant de nos aventures, capturant les paysages les plus époustouflants et les moments les plus mémorables de chaque destination. 
+          Ces images sont bien plus qu'une simple compilation de photos ; elles reflètent la richesse culturelle de chaque lieu, capturant l'essence même de nos expériences. 
+          Préparez-vous à être transporté(e) dans un tourbillon de couleurs, de textures et de paysages à couper le souffle. Ne résistez pas à l'appel de l'aventure qui résonne à travers ces images - laissez-vous inspirer à partir à la découverte de nouveaux horizons. Il n'y a pas de meilleur moment que maintenant pour entreprendre votre propre voyage et créer des souvenirs inoubliables. Alors, qu'attendez-vous ? Laissez-vous emporter par ces images magnifiques et laissez votre curiosité vous guider vers de nouvelles destinations. 
+          Bon voyage !</p>
+      </section>
+      <section class="section-galerie">
+        <ul class="galerie">
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA0OTI3Nw&ixlib=rb-1.2.1&q=80&w=400' alt='Volcano and lava field against a stormy sky'>
+                <figcaption>Mountains and volcanos</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633621533308-8760aefb5521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjAyMQ&ixlib=rb-1.2.1&q=80&w=400' alt='Guy on a bike ok a wooden bridge with a forest backdrop'>
+                <figcaption>Adventure getaways</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633635146842-12d386e64058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person standing alone in a misty forest'>
+                <figcaption>Forest escapes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person hiking on a trail through mountains while taking a photo with phone'>
+                <figcaption>Hiking trails</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633515257379-5fda985bd57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Street scene with person walking and others on motorbikes, all wearing masks'>
+                <figcaption>Street scenes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>        
+      <section id="Colombie" class="titre-blanc">
+        <h1>Colombie</h1>
+        <p>Bienvenue à bord de notre voyage visuel à travers les pays que nous avons eu la chance de visiter !
+          Dans cette collection, nous vous offrons un aperçu captivant de nos aventures, capturant les paysages les plus époustouflants et les moments les plus mémorables de chaque destination. 
+          Ces images sont bien plus qu'une simple compilation de photos ; elles reflètent la richesse culturelle de chaque lieu, capturant l'essence même de nos expériences. 
+          Préparez-vous à être transporté(e) dans un tourbillon de couleurs, de textures et de paysages à couper le souffle. Ne résistez pas à l'appel de l'aventure qui résonne à travers ces images - laissez-vous inspirer à partir à la découverte de nouveaux horizons. Il n'y a pas de meilleur moment que maintenant pour entreprendre votre propre voyage et créer des souvenirs inoubliables. Alors, qu'attendez-vous ? Laissez-vous emporter par ces images magnifiques et laissez votre curiosité vous guider vers de nouvelles destinations. 
+          Bon voyage !</p>
+      </section>
+      <section class="section-galerie">
+        <ul class="galerie">
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA0OTI3Nw&ixlib=rb-1.2.1&q=80&w=400' alt='Volcano and lava field against a stormy sky'>
+                <figcaption>Mountains and volcanos</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633621533308-8760aefb5521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjAyMQ&ixlib=rb-1.2.1&q=80&w=400' alt='Guy on a bike ok a wooden bridge with a forest backdrop'>
+                <figcaption>Adventure getaways</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633635146842-12d386e64058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person standing alone in a misty forest'>
+                <figcaption>Forest escapes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person hiking on a trail through mountains while taking a photo with phone'>
+                <figcaption>Hiking trails</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633515257379-5fda985bd57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Street scene with person walking and others on motorbikes, all wearing masks'>
+                <figcaption>Street scenes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>        
+      <section id="Équateur" class="titre-blanc">
+        <h1>Équateur</h1>
+        <p>Bienvenue à bord de notre voyage visuel à travers les pays que nous avons eu la chance de visiter !
+          Dans cette collection, nous vous offrons un aperçu captivant de nos aventures, capturant les paysages les plus époustouflants et les moments les plus mémorables de chaque destination. 
+          Ces images sont bien plus qu'une simple compilation de photos ; elles reflètent la richesse culturelle de chaque lieu, capturant l'essence même de nos expériences. 
+          Préparez-vous à être transporté(e) dans un tourbillon de couleurs, de textures et de paysages à couper le souffle. Ne résistez pas à l'appel de l'aventure qui résonne à travers ces images - laissez-vous inspirer à partir à la découverte de nouveaux horizons. Il n'y a pas de meilleur moment que maintenant pour entreprendre votre propre voyage et créer des souvenirs inoubliables. Alors, qu'attendez-vous ? Laissez-vous emporter par ces images magnifiques et laissez votre curiosité vous guider vers de nouvelles destinations. 
+          Bon voyage !</p>
+      </section>
+      <section class="section-galerie">
+        <ul class="galerie">
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA0OTI3Nw&ixlib=rb-1.2.1&q=80&w=400' alt='Volcano and lava field against a stormy sky'>
+                <figcaption>Mountains and volcanos</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633621533308-8760aefb5521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjAyMQ&ixlib=rb-1.2.1&q=80&w=400' alt='Guy on a bike ok a wooden bridge with a forest backdrop'>
+                <figcaption>Adventure getaways</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633635146842-12d386e64058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person standing alone in a misty forest'>
+                <figcaption>Forest escapes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person hiking on a trail through mountains while taking a photo with phone'>
+                <figcaption>Hiking trails</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633515257379-5fda985bd57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Street scene with person walking and others on motorbikes, all wearing masks'>
+                <figcaption>Street scenes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>        
+      <section id="Pérou" class="titre-blanc">
+        <h1>Pérou</h1>
+        <p>Bienvenue à bord de notre voyage visuel à travers les pays que nous avons eu la chance de visiter !
+          Dans cette collection, nous vous offrons un aperçu captivant de nos aventures, capturant les paysages les plus époustouflants et les moments les plus mémorables de chaque destination. 
+          Ces images sont bien plus qu'une simple compilation de photos ; elles reflètent la richesse culturelle de chaque lieu, capturant l'essence même de nos expériences. 
+          Préparez-vous à être transporté(e) dans un tourbillon de couleurs, de textures et de paysages à couper le souffle. Ne résistez pas à l'appel de l'aventure qui résonne à travers ces images - laissez-vous inspirer à partir à la découverte de nouveaux horizons. Il n'y a pas de meilleur moment que maintenant pour entreprendre votre propre voyage et créer des souvenirs inoubliables. Alors, qu'attendez-vous ? Laissez-vous emporter par ces images magnifiques et laissez votre curiosité vous guider vers de nouvelles destinations. 
+          Bon voyage !</p>
+      </section>
+      <section class="section-galerie">
+        <ul class="galerie">
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA0OTI3Nw&ixlib=rb-1.2.1&q=80&w=400' alt='Volcano and lava field against a stormy sky'>
+                <figcaption>Mountains and volcanos</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633621533308-8760aefb5521?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjAyMQ&ixlib=rb-1.2.1&q=80&w=400' alt='Guy on a bike ok a wooden bridge with a forest backdrop'>
+                <figcaption>Adventure getaways</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633635146842-12d386e64058?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person standing alone in a misty forest'>
+                <figcaption>Forest escapes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1568444438385-ece31a33ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Person hiking on a trail through mountains while taking a photo with phone'>
+                <figcaption>Hiking trails</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633515257379-5fda985bd57a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Street scene with person walking and others on motorbikes, all wearing masks'>
+                <figcaption>Street scenes</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <figure class="photos-zoom">
+                <img class="galerie-photos" src='https://images.unsplash.com/photo-1633209931146-260ce0d16e22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzNDA1MjA5OA&ixlib=rb-1.2.1&q=80&w=400' alt='Fashionable-looking girl with blond hair and pink sunglasses'>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </section>                
+    </main>
+    <footer>
+        <div class="logo-footer"><a href="accueil.html"> <img src="images/logo.png" alt=""></a></div>
+        <div>
+            <a target="_blank" href="https://t witter.com/" class="lien-icone">
+                <img src="images/twitter.png" alt="Logo Twitter">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+                <img src="images/instagram.png" alt="Logo Instagram">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
