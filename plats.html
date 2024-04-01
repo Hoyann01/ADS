@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Plats typiques - ADS en Pixels</title>
+    <link href="accueil.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sigmar&family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Sigmar&family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <head>
+        <nav>
+            <div class="wrapper">
+                <div class="logo"><a href="accueil.html"> <img src="images/logo.png" alt=""><span class="texte-logo">ADS
+                            en Pixels</span> </a></div>
+                <input type="radio" name="slider" id="menu-btn">
+                <input type="radio" name="slider" id="close-btn">
+                <ul class="nav-links">
+                    <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                    <li><a href="accueil.html">Accueil</a></li>
+                    <li><a href="quisommesnous.html">À propos</a></li>
+                    <li>
+                        <a href="photos.html" class="desktop-item">Nos photos</a>
+                        <input type="checkbox" id="showDrop">
+                        <label for="showDrop" class="mobile-item">Nos photos</label>
+                        <ul class="drop-menu">
+                            <li><a href="photos.html#Argentine">Argentine</a></li>
+                            <li><a href="photos.html#Bolivie">Bolivie</a></li>
+                            <li><a href="photos.html#Chili">Chili</a></li>
+                            <li><a href="photos.html#Colombie">Colombie</a></li>
+                            <li><a href="photos.html#Équateur">Équateur</a></li>
+                            <li><a href="photos.html#Pérou">Pérou</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="guide.html" class="desktop-item">Guide par pays</a>
+                        <input type="checkbox" id="showMega">
+                        <label for="showMega" class="mobile-item">Guide par pays</label>
+                        <div class="mega-box">
+                            <div class="content">
+                                <div class="row">
+                                    <img src="images/menu.jpg" alt="">
+                                </div>
+                                <div class="row">
+                                    <header><a href="argentine.html">Argentine</a></header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Carte d'identité</a></li>
+                                        <li><a href="#">Lieux à voir</a></li>
+                                        <li><a href="#">Itinéraire type</a></li>
+                                        <li><a href="#">Administratif</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header><a href="bolivie.html">Bolivie</a></header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Carte d'identité</a></li>
+                                        <li><a href="#">Lieux à voir</a></li>
+                                        <li><a href="#">Itinéraire type</a></li>
+                                        <li><a href="#">Administratif</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header><a href="chili.html">Chili</a></header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Carte d'identité</a></li>
+                                        <li><a href="#">Lieux à voir</a></li>
+                                        <li><a href="#">Itinéraire type</a></li>
+                                        <li><a href="#">Administratif</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header><a href="colombie.html">Colombie</a></header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Carte d'identité</a></li>
+                                        <li><a href="#">Lieux à voir</a></li>
+                                        <li><a href="#">Itinéraire type</a></li>
+                                        <li><a href="#">Administratif</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header><a href="equateur.html">Équateur</a></header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Carte d'identité</a></li>
+                                        <li><a href="#">Lieux à voir</a></li>
+                                        <li><a href="#">Itinéraire type</a></li>
+                                        <li><a href="#">Administratif</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header><a href="perou.html">Pérou</a></header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Carte d'identité</a></li>
+                                        <li><a href="#">Lieux à voir</a></li>
+                                        <li><a href="#">Itinéraire type</a></li>
+                                        <li><a href="#">Administratif</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">Retours d'expérience</a></li>
+                </ul>
+                <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+            </div>
+        </nav>
+    </head>
+
+    <main>
+        <section class="titre-blanc-plats">
+            <h1>Les plats typiques</h1>
+            <p>Bienvenue dans un voyage gustatif à travers les délices de l'Amérique du Sud, un continent riche en
+                traditions culinaires et en saveurs envoûtantes. Des hautes montagnes des Andes aux vastes plaines de la
+                pampa, chaque région de ce continent diversifié offre une palette unique de plats typiques qui reflètent
+                l'histoire, la culture et la géographie de ses habitants.</p>
+
+            <p>Dans cet article, nous plongerons dans l'univers des plats emblématiques de l'Amérique du Sud, des mets
+                ancestraux hérités des civilisations anciennes aux créations modernes inspirées par un mélange
+                d'influences européennes, africaines et autochtones. Préparez-vous à découvrir des plats colorés, épicés
+                et riches en saveurs qui sauront éveiller vos papilles et vous transporter au cœur de ce continent
+                fascinant.</p>
+        </section>
+
+        <section class="navigation-photos">
+            <div class="container-navigation-photos">
+                <div class="box">
+                    <a href="plats.html#Argentine"><img src="images/nav-argentine.JPG" alt="Argentine"></a>
+                    <span>Argentine</span>
+                </div>
+                <div class="box">
+                    <a href="plats.html#Bolivie"><img src="images/nav-bolivie.jpg" alt="Bolivie"></a>
+                    <span>Bolivie</span>
+                </div>
+                <div class="box">
+                    <a href="plats.html#Chili"><img src="images/nav-chili.jpg" alt="Chili"></a>
+                    <span>Chili</span>
+                </div>
+                <div class="box">
+                    <a href="plats.html#Colombie"><img src="images/nav-colombie.jpeg" alt="Colombie"></a>
+                    <span>Colombie</span>
+                </div>
+                <div class="box">
+                    <a href="plats.html#Équateur"><img src="images/nav-equateur.jpeg" alt="Équateur"></a>
+                    <span>Équateur</span>
+                </div>
+                <div class="box">
+                    <a href="plats.html#Pérou"><img src="images/nav-perou.JPG" alt="Pérou"></a>
+                    <span>Pérou</span>
+                </div>
+            </div>
+        </section>
+        <section class="expressions">
+            <br>
+            <p><strong>Avant de vous présenter les spécialités principales par pays, laissez-moi vous présenter quelques
+                    préparations que l'on retrouve dans toute l'Amérique du Sud et qui font partie des classiques à
+                    savoir.
+                    Le plus connu est évidemment l'empanada, qui est simple, savoureux et que l'on peut déguster à toute
+                    heure ! Je vous laisse découvrir les autres...</strong></p>
+            <br>
+            <h2>L'Empanada</h2>
+            <img src="images/empanada.jpg" alt="Empanadas" class="image-idioma">
+            <br>
+            <p>L'empanada est un chausson croustillant, rempli de viande, de poisson, d'œuf, de pomme de terre ou
+                d'autres ingrédients, enveloppé dans une pâte feuilletée ou à pain. Originaire d'Amérique latine, ce
+                plat savoureux offre une multitude de combinaisons de saveurs et est apprécié dans toute la région pour
+                sa simplicité et sa polyvalence. Parfait pour une collation rapide ou un repas sur le pouce.</p>
+            <br>
+            <h2>L'Humita</h2>
+            <img src="images/humita.jpg" alt="Humita" class="image-idioma">
+            <br>
+            <p>L'humita est une délicieuse spécialité de la cuisine latino-américaine, appréciée pour sa simplicité et
+                son goût authentique. Il s'agit d'une pâte de maïs assaisonnée d'huile et d'oignons, enveloppée dans des
+                feuilles de maïs soigneusement ficelées. Cette préparation rustique offre une combinaison parfaite de
+                saveurs douces et de textures moelleuses, faisant de l'humita un régal pour les papilles gustatives.</p>
+            <br>
+            <h2>Le Ceviche</h2>
+            <img src="images/ceviche.jpg" alt="Ceviche" class="image-idioma">
+            <br>
+            <p>Le ceviche est un plat emblématique d'Amérique latine, réputé pour sa fraîcheur et sa simplicité. Ce plat
+                est composé de poisson ou de crustacés marinés dans des agrumes et des assaisonnements, ce qui lui
+                confère une saveur vive et acidulée. En combinant le poisson frais avec du jus de citron vert ou de
+                lime, des oignons, du piment, de la coriandre et d'autres ingrédients aromatiques, le ceviche offre une
+                expérience gustative unique et rafraîchissante. Que ce soit servi en entrée, en accompagnement ou en
+                plat principal, le ceviche est un incontournable de la cuisine latino-américaine, parfait pour une
+                explosion de saveurs estivales.</p>
+
+            <h1 id="Argentine">Quoi déguster en Argentine</h1>
+            <p>Découvrez ci-dessous quelques plats, entrées et desserts typiques que vous pouvez savourer en Argentine :
+            </p>
+            <br>
+            <ul>
+                <li><strong>Asado:</strong> Barbecue argentin avec une variété de viandes grillées.</li>
+                <li><strong>Empanadas argentines:</strong> Chaussons farcis à la viande, aux œufs et aux olives.</li>
+                <li><strong>Milanesa:</strong> Escalope panée et frite.</li>
+                <li><strong>Choripán:</strong> Sandwich à la saucisse chorizo.</li>
+                <li><strong>Matambre:</strong> Roulade de viande farcie aux légumes et aux œufs durs.</li>
+                <li><strong>Humita en chala:</strong> Masse de maïs enveloppée dans des feuilles de maïs.</li>
+                <li><strong>Dulce de leche:</strong> Confiture de lait sucrée.</li>
+                <li><strong>Helado de dulce de leche:</strong> Glace au dulce de leche.</li>
+                <li><strong>Alfajores:</strong> Biscuits fourrés de dulce de leche et recouverts de chocolat.</li>
+                <li><strong>Chocotorta:</strong> Gâteau à base de biscuits imbibés de café et de dulce de leche.</li>
+            </ul>
+            <h2>La Milanesa</h2>
+            <img src="images/argentine/milanesa.jpg" alt="milanesa" class="image-idioma">
+            <p>La Milanesa est un plat classique et réconfortant qui consiste en de fines tranches de bœuf, de poulet,
+                de veau ou parfois même de porc. Ces tranches de viande sont ensuite enrobées de chapelure et légèrement
+                frites dans de l'huile. Cela crée une croûte croustillante autour de la viande, tandis que l'intérieur
+                reste tendre et juteux. La Milanesa est souvent servie avec des accompagnements tels que des frites, une
+                salade fraîche ou même une sauce tomate savoureuse. C'est un plat populaire en Argentine, apprécié pour
+                sa simplicité et son goût délicieux.</p>
+            <h2>Un Asado</h2>
+            <img src="images/argentine/asado.jpg" alt="Asado" class="image-idioma">
+            <p>Au cœur de la culture sud-américaine se trouve l'asado, une tradition qui consiste à se réunir autour
+                d'un barbecue. C'est un moment où amis et famille se retrouvent autour du feu pour partager de la viande
+                grillée et des histoires. L'asado se déroule généralement en plein air, avec un asador (un expert du
+                barbecue) qui s'occupe de la cuisson de la viande. C'est une expérience sociale et culinaire unique, où
+                la convivialité et la bonne nourriture sont à l'honneur.</p>
+
+            <h1 id="Bolivie">Quoi déguster en Bolivie</h1>
+            <p>Retrouvez ci-dessous quelques plats, entrées et desserts typiques que vous pouvez déguster en Bolivie :
+            </p>
+            <br>
+            <ul>
+                <li><strong>Silpancho:</strong> Roulade de bœuf panée et frite, accompagnée de riz et de plantains
+                    frits.</li>
+                <li><strong>Sonso de yuca:</strong> Brochette de manioc et de fromage râpé, grillée, cuite au four ou
+                    frite.</li>
+                <li><strong>Salteñas:</strong> Chaussons farcis à la viande, aux œufs, aux olives et aux légumes.</li>
+                <li><strong>Charque de llama:</strong> Viande de lama séchée et marinée, souvent servie avec du riz et
+                    des légumes.</li>
+                <li><strong>Pique macho:</strong> Plat copieux à base de viande, de pommes de terre, de légumes et de
+                    piments.</li>
+                <li><strong>Api:</strong> Boisson chaude à base de maïs violet et aromatisée à la cannelle.</li>
+                <li><strong>Majadito:</strong> Plat de riz sauté avec de la viande de porc, des légumes et des épices.
+                </li>
+                <li><strong>Queso humacha:</strong> Soupe crémeuse de maïs et de fromage, parfois garnie de viande.</li>
+                <li><strong>Tawa tawa:</strong> Plat de bœuf mijoté avec des pommes de terre, des oignons et des
+                    tomates.</li>
+                <li><strong>Mondongo:</strong> Ragoût de tripes avec des légumes et des épices.</li>
+            </ul>
+            <h2>Le Silpancho</h2>
+            <img src="images/bolivie/silpancho.jpg" alt="silpancho" class="image-idioma">
+            <p>Le Silpancho est un plat emblématique de la cuisine bolivienne, célèbre pour sa combinaison savoureuse et
+                copieuse. Il est composé d'une base de riz et de pommes de terre, sur laquelle est déposée une fine
+                couche de viande de bœuf hachée, qui est ensuite panée et frite à la manière de l'escalope viennoise.
+                Cette viande panée est généralement accompagnée d'œufs frits, de tranches de tomate et d'oignon, ainsi
+                que de salade, de riz et de pommes de terre frites. Le Silpancho est un plat réconfortant et consistant,
+                souvent servi lors de grandes occasions familiales ou festives en Bolivie. Sa combinaison de textures et
+                de saveurs en fait un plat apprécié de tous, tant pour son goût délicieux que pour sa générosité.</p>
+            <h2>Sonso de yuca</h2>
+            <img src="images/bolivie/sonso.jpg" alt="sonso de yuca" class="image-idioma">
+            <p>Le Sonso de yuca est un mets populaire en Bolivie, apprécié pour sa simplicité et sa délicieuse
+                combinaison de saveurs. Il est préparé à partir de manioc (ou yuca) et de fromage râpé, formant une pâte
+                qui est ensuite enfilée sur une brochette. Cette préparation est ensuite grillée, cuite au four ou
+                frite, selon les préférences culinaires régionales. Le résultat est une collation savoureuse et
+                réconfortante, avec une texture croustillante à l'extérieur et un intérieur moelleux et fondant. Le
+                Sonso de yuca est souvent dégusté en accompagnement d'autres plats boliviens ou en tant que collation à
+                tout moment de la journée. C'est une spécialité appréciée pour son goût unique et sa facilité de
+                préparation.</p>
+
+            <h1 id="Chili">Quoi déguster au Chili</h1>
+            <p>Retrouvez ci-dessous quelques plats, entrées et desserts typiques que vous pouvez déguster au Chili :</p>
+            <br>
+            <ul>
+                <li><strong>Pastel de Choclo:</strong> Gratin de maïs sucré et salé avec du poulet ou du bœuf.</li>
+                <li><strong>Cazuela:</strong> Un ragoût traditionnel avec du poulet ou de la viande, accompagné de
+                    légumes et de maïs.</li>
+                <li><strong>Completo:</strong> Hot-dog chilien garni de nombreux ingrédients comme l'avocat, les tomates
+                    et la mayonnaise.</li>
+                <li><strong>Chorrillana:</strong> Frites garnies de viande, d'oignons et d'œufs.</li>
+                <li><strong>Empanadas:</strong> Chaussons farcis à la viande, aux crevettes, ou aux légumes.</li>
+                <li><strong>Pisco Sour:</strong> Cocktail à base de pisco, de jus de citron, de blanc d'œuf et de sucre.
+                </li>
+                <li><strong>Mote con huesillo:</strong> Dessert à base de blé et de pêches séchées.</li>
+                <li><strong>Leche asada:</strong> Flan au lait caramélisé.</li>
+                <li><strong>Arroz con leche:</strong> Riz au lait sucré et parfumé à la cannelle.</li>
+                <li><strong>Manjar:</strong> Confiture de lait, utilisée souvent comme garniture pour les desserts.</li>
+            </ul>
+            <h2>Le Completo</h2>
+            <img src="images/chili/completo.jpg" alt="completo" class="image-idioma">
+            <p>Le completo chilien est une version unique du hot-dog, qui comprend des variations dans les ingrédients
+                pour créer une explosion de saveurs. Typiquement, il est garni d'avocats, de tomates, de mayonnaise, de
+                moutarde et de ketchup, mais aussi de sauce américaine et de choucroute, parmi d'autres possibilités.
+                C'est un plat polyvalent et personnalisable, où chacun peut ajouter ses ingrédients préférés pour créer
+                son propre completo parfait. Cette version chilienne du hot-dog est appréciée pour sa combinaison
+                audacieuse de saveurs et sa capacité à satisfaire les envies de chacun.</p>
+            <h2>Le Charquican</h2>
+            <img src="images/chili/charquican.jpg" alt="charquican" class="image-idioma">
+            <p>Le Charquicán est un plat réconfortant et traditionnel de la cuisine chilienne. Il s'agit d'un ragoût
+                préparé à base de morceaux de pomme de terre, de haricots verts, de grains de maïs et de petits morceaux
+                de viande de bœuf ou de porc. Parfois, il est également agrémenté de courges ou de citrouilles pour
+                ajouter de la douceur au plat. Pour donner une touche de saveur supplémentaire, le Charquicán chilien
+                peut être assaisonné avec des épices telles que le cumin, le paprika ou le piment, ainsi que de l'ail et
+                de l'oignon. C'est un plat copieux et nourrissant, parfait pour se réchauffer pendant les journées
+                fraîches, et il est souvent apprécié en famille ou entre amis lors des rassemblements traditionnels
+                chiliens.</p>
+
+            <h1 id="Colombie">Quoi déguster en Colombie</h1>
+            <p>Découvrez ci-dessous quelques plats, entrées et desserts typiques que vous pouvez savourer en Colombie :
+            </p>
+            <br>
+            <ul>
+                <li><strong>Ajiaco:</strong> Soupe de poulet avec des pommes de terre, du maïs et de l'avocat.</li>
+                <li><strong>Arepa:</strong> Pain de maïs garni de fromage, de viande ou d'œuf.</li>
+                <li><strong>Bandeja paisa:</strong> Assiette copieuse avec de la viande, des haricots, du riz, des œufs,
+                    de l'avocat et des bananes plantain.</li>
+                <li><strong>Lechona:</strong> Cochon de lait farci au riz, aux petits pois et aux épices.</li>
+                <li><strong>Sancocho:</strong> Ragoût de viande avec des légumes et du maïs.</li>
+                <li><strong>Chicharrón:</strong> Morceaux de porc frits croustillants.</li>
+                <li><strong>Obleas:</strong> Galettes fines fourrées au dulce de leche et à la confiture.</li>
+                <li><strong>Arequipe:</strong> Confiture de lait sucrée, utilisée souvent comme garniture pour les
+                    desserts.</li>
+                <li><strong>Bunuelos:</strong> Beignets de fromage frits, saupoudrés de sucre.</li>
+                <li><strong>Pandebono:</strong> Petit pain de fromage à la texture moelleuse.</li>
+            </ul>
+            <h2>Le Patacón</h2>
+            <img src="images/colombie/patacon.jpg" alt="patacon" class="image-idioma">
+            <p>Le Patacon colombien est un plat populaire à base de banane plantain verte. Les morceaux de banane sont
+                coupés en tranches, écrasés puis frits jusqu'à ce qu'ils soient croustillants. Servis seuls ou
+                accompagnés de sauces ou de garnitures, les Patacones sont une délicieuse collation colombienne
+                appréciée pour leur texture croquante et leur goût savoureux.</p>
+            <h2>L'Arepa</h2>
+            <img src="images/colombie/arepa.jpg" alt="arepa" class="image-idioma">
+            <p>L'Arepa est un pain traditionnel d'Amérique latine, particulièrement populaire en Colombie et au
+                Venezuela. Il est fabriqué à partir de farine de maïs précuite, d'eau et de sel, formant une pâte qui
+                est ensuite façonnée en disques plats puis cuite sur une surface chaude. Une fois cuite, l'Arepa peut
+                être garnie de divers ingrédients, notamment de jambon, de fromage, de viande, de haricots ou d'œufs,
+                selon les préférences culinaires. Ce plat polyvalent est apprécié à toute heure de la journée, que ce
+                soit au petit-déjeuner, au déjeuner ou en tant que collation. L'Arepa est appréciée pour sa texture
+                moelleuse à l'intérieur et croustillante à l'extérieur, ainsi que pour sa capacité à être personnalisée
+                selon les goûts de chacun.</p>
+            <h2>Le Jugo en leche</h2>
+            <img src="images/colombie/jugo.jpg" alt="jugo en leche" class="image-idioma">
+            <p>Le Jugo en Leche est une boisson traditionnelle qui associe simplement du jus de fruits frais avec du
+                lait. C'est une boisson rafraîchissante et crémeuse, parfaite pour se désaltérer par temps chaud en
+                Colombie. Les Colombiens apprécient cette boisson pour sa simplicité et sa délicieuse combinaison de
+                saveurs de fruits frais et de lait.</p>
+
+
+            <h1 id="Équateur">Quoi déguster en Équateur</h1>
+            <p>Découvrez ci-dessous quelques plats, entrées et desserts typiques que vous pouvez savourer en Équateur :
+            </p>
+            <br>
+            <ul>
+                <li><strong>Ceviche ecuatoriano:</strong> Plat de poisson ou de fruits de mer marinés dans du citron
+                    vert.</li>
+                <li><strong>Locro de papa:</strong> Soupe de pommes de terre, d'avocat, de fromage et d'épices.</li>
+                <li><strong>Llapingachos:</strong> Galettes de pommes de terre farcies au fromage et frites.</li>
+                <li><strong>Seco de chivo:</strong> Ragoût de viande de chèvre avec du riz et des haricots.</li>
+                <li><strong>Encebollado:</strong> Soupe de poisson avec des oignons marinés et des bananes plantain.
+                </li>
+                <li><strong>Hornado:</strong> Porc rôti au four avec des pommes de terre et des légumes.</li>
+                <li><strong>Arroz con leche:</strong> Riz au lait sucré et parfumé à la cannelle.</li>
+                <li><strong>Empanadas de viento:</strong> Chaussons frits farcis au fromage et au sucre.</li>
+                <li><strong>Torta de chocho:</strong> Gâteau à base de graines de chocho, de farine et de sucre.</li>
+                <li><strong>Choclo con queso:</strong> Maïs grillé servi avec du fromage.</li>
+            </ul>
+            <h2>Le Cuy</h2>
+            <img src="images/equateur/cuy.jpg" alt="cuy" class="image-idioma">
+            <p>Le Cuy est une spécialité culinaire qui consiste à rôtir à la broche un cochon d'Inde géant, de la taille
+                d'un petit lapin. Ce plat traditionnel est une délicatesse dans la cuisine péruvienne, appréciée pour sa
+                saveur unique et sa texture tendre. Le Cuy est souvent assaisonné avec des herbes et des épices locales
+                avant d'être grillé lentement à la broche jusqu'à ce qu'il soit doré et croustillant à l'extérieur, tout
+                en restant juteux à l'intérieur. </p>
+            <h2>La Guatita</h2>
+            <img src="images/equateur/guatita.jpg" alt="guatita" class="image-idioma">
+            <p>La Guatita est un ragoût équatorien préparé avec des tripes cuites dans une sauce à base de pommes de
+                terre et de cacahuètes. Ce plat est un classique de la cuisine équatorienne, apprécié pour sa richesse
+                en saveurs et sa texture onctueuse. Les tripes sont souvent cuites lentement dans une sauce mijotée avec
+                des pommes de terre, des arachides, des épices et d'autres ingrédients aromatiques, ce qui donne au plat
+                une profondeur de goût caractéristique. La Guatita est souvent servie avec du riz ou de la banane
+                plantain.</p>
+            <h2>Le Seco de chivo</h2>
+            <img src="images/equateur/seco.jpg" alt="seco de chivo" class="image-idioma">
+            <p>Le Seco de chivo est un ragoût épais à base de viande de chèvre, un plat traditionnel de l'Équateur.
+                Servi avec du riz et des plantains frits, ce plat est apprécié pour sa saveur riche et sa tendreté.
+                C'est un repas réconfortant et délicieux, parfait pour savourer la cuisine équatorienne authentique.</p>
+
+            <h1 id="Pérou">Quoi déguster au Pérou</h1>
+            <h2>Pérou</h2>
+            <p>Découvrez ci-dessous quelques plats, entrées et desserts typiques que vous pouvez savourer au Pérou :</p>
+            <br>
+            <ul>
+                <li><strong>Ceviche:</strong> Plat de poisson ou de fruits de mer marinés dans du citron vert.</li>
+                <li><strong>Lomo saltado:</strong> Lamelles de bœuf sautées avec des oignons, des tomates et des frites.
+                </li>
+                <li><strong>Aji de gallina:</strong> Poulet en sauce crémeuse aux noix et au piment.</li>
+                <li><strong>Cuy:</strong> Cochon d’Inde géant rôti à la broche.</li>
+                <li><strong>Anticuchos:</strong> Brochettes de cœur de bœuf mariné et grillé.</li>
+                <li><strong>Pollo a la brasa:</strong> Poulet rôti à la broche, servi avec des frites.</li>
+                <li><strong>Papa a la huancaína:</strong> Pommes de terre dans une sauce crémeuse au fromage et au
+                    piment.</li>
+                <li><strong>Chifa:</strong> Cuisine péruvienne-chinoise, avec des plats comme le lomo saltado et le
+                    chaufa.</li>
+                <li><strong>Suspiro a la limena:</strong> Dessert de meringue sucrée, garni de caramel.</li>
+                <li><strong>Mazamorra morada:</strong> Dessert à base de maïs violet et de fruits, aromatisé à la
+                    cannelle.</li>
+            </ul>
+            <h2>L'Ají de gallina</h2>
+            <img src="images/perou/aji.jpg" alt="aji de gallina" class="image-idioma">
+            <p>L'Aji de Gallina est une crème épaisse à base de chair de poulet déchiquetée, cuisinée dans un bouillon
+                aromatique et additionnée de pain trempé. Originaire du Pérou, ce plat est apprécié pour sa texture
+                crémeuse et son mélange unique de saveurs. La chair de poulet est cuite lentement dans un bouillon
+                parfumé, puis mélangée à du pain trempé pour épaissir la sauce et lui donner une consistance veloutée.
+                Des épices comme le piment Aji amarillo et d'autres condiments sont souvent ajoutés pour relever le
+                goût.</p>
+            <h2>Le Lomo Saltado</h2>
+            <img src="images/perou/lomo.jpg" alt="lomo saltado" class="image-idioma">
+            <p>Le Lomo Saltado est un plat péruvien populaire composé de lamelles de bœuf sautées dans un wok avec de
+                l'oignon rouge, des tomates, des frites et des épices. Traditionnellement, il est servi avec du riz
+                blanc. Ce plat allie parfaitement les saveurs et les textures, avec la tendreté de la viande de bœuf, la
+                fraîcheur des légumes sautés et le croquant des frites. Les épices et les sauces ajoutent une touche de
+                piquant et de complexité à ce plat délicieux.</p>
+        </section>
+
+    </main>
+    <footer>
+        <div class="logo-footer"><a href="accueil.html"> <img src="images/logo.png" alt=""></a></div>
+        <div>
+            <a target="_blank" href="https://t witter.com/" class="lien-icone">
+                <img src="images/twitter.png" alt="Logo Twitter">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
+                <img src="images/instagram.png" alt="Logo Instagram">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
