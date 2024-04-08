@@ -62,6 +62,11 @@ section {
     text-align: center;
 }
 
+.titre-blanc h1 {
+    padding-top: 2%;
+    font-size: 3em;
+}
+
 .titre-blanc p, h1, h2 {
     color: wheat;
 }
@@ -698,9 +703,7 @@ nav input {
     justify-content: center;
     padding-left: 20%;
     padding-right: 20%;
-    padding-bottom: 5%;
-    margin-bottom: 20px;
-    padding-top: 3%;
+    padding-top: 1%;
 }
 
 .card {
@@ -1490,10 +1493,11 @@ a:is(:hover, :focus) figcaption {
 .travel-tips {
     background-color: #c84a27;
     text-align: center;
-    margin-top: 3%;
-    margin-bottom: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px;
 }
 
 /* Style de base pour la liste des éléments de navigation */
@@ -2243,6 +2247,7 @@ footer p {
 
 .expressions {
     width: 100%;
+    margin: 0;
     padding-left: 30%;
     padding-right: 30%;
     background-color: white;
@@ -2350,7 +2355,7 @@ footer p {
     display: block;
   }
 
-  .titre-blanc-expressions {
+  .blanc-expressions {
     text-align: center;
     margin: 0px;
     padding-top: 180px;
@@ -2500,4 +2505,330 @@ footer p {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     padding-top: 3%;
     padding-bottom: 5%;
+}
+
+
+.retours {
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    padding-bottom: 5%;
+
+    h1 {
+        color: #333;
+        text-align: center;
+    }
+
+    h2 {
+        color: #333;
+        text-align: left;
+        padding-left: 10%;
+        padding-top: 3%;
+        font-size: 2rem;
+    }
+  }
+
+
+
+.citations {
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: white;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+
+.quote-card {
+  background: white;
+  color: white;
+  padding: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+  box-sizing: content-box;
+  box-shadow: 0 2px 4px rgba(black, 0.12);
+  
+  position: relative;
+  overflow: hidden;
+  min-height: 60px;
+  
+  p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 150%;
+    color: white;
+  }
+  
+  cite {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    font-weight: 200;
+    opacity: 0.8;
+  }
+  
+  &:before {
+    font-family: Georgia, serif;
+    content: "“";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 5em;
+    color: rgba(white, 0.8);
+    font-weight: normal;
+  }
+  
+  &:after {
+    font-family: Georgia, serif;
+    content: "”";
+    position: absolute;
+    bottom: -110px;
+    line-height: 100px;
+    right: -32px;
+    font-size: 25em;
+    color: rgba(white, 0.8);
+    font-weight: normal;
+  }
+  
+  @media(max-width: 640px) {
+    &:after {
+      font-size: 22em;
+      right: -25px;
+    }
+  }
+  
+  
+  &.orange1 {
+    background: rgb(236, 138, 73);
+    color: white;
+    box-shadow: 0 1px 2px rgba(black, 0.12), 0 2px 4px rgba(black, 0.24);
+    
+    &:before, &:after {
+      color: white;
+    }
+  }
+  
+  &.orange2 {
+    background: rgb(207, 112, 33);
+    color: white;
+    box-shadow: 0 1px 2px rgba(black, 0.12), 0 2px 4px rgba(black, 0.24);
+    
+    &:before, &:after {
+      color: white;
+    }
+  }
+  
+  &.orange3 {
+    background: #c84a27;
+    color: white;
+    box-shadow: 0 1px 2px rgba(black, 0.12), 0 2px 4px rgba(black, 0.24);
+    
+    &:before, &:after {
+      color: white;
+    }
+  }
+
+  &.orange4 {
+    background: #c05e42;
+    color: white;
+    box-shadow: 0 1px 2px rgba(black, 0.12), 0 2px 4px rgba(black, 0.24);
+    
+    &:before, &:after {
+      color: white;
+    }
+  }
+}
+
+.credits {
+  margin-top: 80px;
+      border-bottom-style: solid;
+      opacity: 1;
+}
+
+.barre-verticale {
+    /* display: inline-flexbox; */
+    /* display: inline-flex; */
+    /* display: contents; */
+    /* display: flex; */
+    /* display: grid; */
+    max-width: 450px;
+    float: right;
+    background-color: #c84a27;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 10%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 25px 25px 50px rgba(0, 0, 0, 0.4);
+
+
+    p {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        color: wheat;
+    }
+
+    img  {
+        width: 350px;
+        height:auto;
+        padding-bottom: 5%;
+    }
+
+    img:hover {
+        opacity: 1;
+    }
+}
+
+
+  
+  /* .text-container {
+    width: 60%;
+    float: right;
+    padding-top: 5%;
+  }
+  
+  .image-container {
+    padding-top: 5%;
+    width: 30%;
+    float: right;
+  } */
+
+  .itineraire {
+    padding-top: 10%;
+  }
+
+
+  .expressions iframe {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  .titre-blanc-civilisations h1 {
+    color: wheat;
+    text-align: center;
+}
+
+.titre-blanc-civilisations p {
+    color: wheat;
+    font-weight: bold;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1%;
+    font-size: 1.3em;
+    text-align: justify;
+    text-align: center;
+}
+
+.titre-blanc-civilisations {
+    margin: 0px;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    color: wheat;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url('images/histoire.jpg'); /* Ajoutez le chemin de votre image ici */
+    background-size: cover; /* Ajuste la taille de l'image pour remplir l'élément */
+    background-position: center; /* Centre l'image à l'intérieur de l'élément */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter */
+}
+
+.saviez-vous {
+    border-radius: 20px;
+    background-color: wheat;
+    padding: 2%;
+}
+
+.titre-saviez-vous {
+    display: inline;
+    font-size: 3rem;
+    font-family: 'Sigmar';
+    align-items: center;
+    position: relative;
+    left: 260px;
+    top: 20px;
+    background-color: wheat;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.expressions h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(241, 122, 42);
+}
+
+.petite-image {
+    position:relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.saviez-vous2 {
+    border-radius: 20px;
+    background-color: #333;
+    padding: 2%;
+    color: white;
+}
+
+.titre-saviez-vous2 {
+    display: inline;
+    font-size: 3rem;
+    font-family: 'Sigmar';
+    align-items: center;
+    position: relative;
+    left: 500px;
+    top: 20px;
+    background-color: #333;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.pour-info p {
+    color: white;
+}
+
+
+.titre-blanc-conquistas h1 {
+    color: wheat;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    left: 450px;
+    max-width: 1000px;
+}
+
+.titre-blanc-conquistas p {
+    color: wheat;
+    font-weight: bold;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1%;
+    font-size: 1.3em;
+    text-align: justify;
+    text-align: center;
+}
+
+.titre-blanc-conquistas {
+    margin: 0px;
+    padding-top: 20%;
+    padding-bottom: 3%;
+    color: wheat;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url('images/conquistas/conquistas.jpg'); /* Ajoutez le chemin de votre image ici */
+    background-size: cover; /* Ajuste la taille de l'image pour remplir l'élément */
+    background-position: center; /* Centre l'image à l'intérieur de l'élément */
+    background-repeat: no-repeat; /* Empêche l'image de se répéter */
+}
+
+.texte-orange p {
+    color: #c84a27;
 }
